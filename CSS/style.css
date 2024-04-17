@@ -1,0 +1,20 @@
+@import url(navigation.css);
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root
+{
+    --clr: #222327;
+
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--clr);
+}
